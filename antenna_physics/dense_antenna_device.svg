@@ -1,0 +1,143 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <title>Dense wardriving node cluster — antenna spacing illustration</title>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a1e"/>
+
+  <!-- Desk/surface -->
+  <rect x="0" y="480" width="800" height="120" fill="#2a2a2f"/>
+  <rect x="0" y="478" width="800" height="3" fill="#3a3a40"/>
+
+  <!-- USB cables coming out bottom -->
+  <path d="M160 520 Q140 560 120 600" stroke="#222228" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M200 520 Q190 570 185 600" stroke="#222228" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M540 520 Q560 565 570 600" stroke="#222228" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M580 520 Q610 560 630 600" stroke="#222228" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- USB connector ends -->
+  <rect x="112" y="590" width="16" height="10" rx="2" fill="#444"/>
+  <rect x="177" y="590" width="16" height="10" rx="2" fill="#444"/>
+  <rect x="562" y="590" width="16" height="10" rx="2" fill="#444"/>
+  <rect x="622" y="590" width="16" height="10" rx="2" fill="#444"/>
+
+  <!-- Device body — left node cluster -->
+  <rect x="80" y="440" width="260" height="80" rx="14" fill="#e8e8ec"/>
+  <rect x="80" y="440" width="260" height="80" rx="14" fill="none" stroke="#c8c8cc" stroke-width="1.5"/>
+  <!-- ventilation dots -->
+  <circle cx="120" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="134" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="148" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="162" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="176" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="190" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="204" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="218" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="232" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="246" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="260" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="274" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="288" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="302" cy="480" r="3" fill="#c0c0c4"/>
+  <!-- USB port left -->
+  <rect x="88" y="472" width="20" height="14" rx="2" fill="#aaa"/>
+  <!-- USB port right -->
+  <rect x="328" y="472" width="20" height="14" rx="2" fill="#aaa"/>
+
+  <!-- SMA connectors left cluster — 5 antennas packed tight -->
+  <circle cx="130" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="163" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="196" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="229" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="262" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="295" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+
+  <!-- Antenna shafts left cluster — packed close, slight spread for realism -->
+  <line x1="130" y1="435" x2="118" y2="200" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="114" y="196" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="163" y1="435" x2="155" y2="195" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="151" y="191" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="196" y1="435" x2="192" y2="193" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="188" y="189" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="229" y1="435" x2="229" y2="192" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="225" y="188" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="262" y1="435" x2="266" y2="194" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="262" y="190" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="295" y1="435" x2="303" y2="197" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="299" y="193" width="8" height="4" rx="2" fill="#555"/>
+
+  <!-- Coupling zones left cluster — overlapping warm ellipses -->
+  <ellipse cx="130" cy="320" rx="44" ry="110" fill="#f0880020" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="163" cy="315" rx="44" ry="108" fill="#f0880018" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="196" cy="314" rx="44" ry="108" fill="#f0880018" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="229" cy="314" rx="44" ry="108" fill="#f0880018" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="262" cy="315" rx="44" ry="108" fill="#f0880018" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="295" cy="318" rx="44" ry="110" fill="#f0880020" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+
+  <!-- Device body — right node cluster -->
+  <rect x="460" y="440" width="260" height="80" rx="14" fill="#e8e8ec"/>
+  <rect x="460" y="440" width="260" height="80" rx="14" fill="none" stroke="#c8c8cc" stroke-width="1.5"/>
+  <!-- ventilation dots -->
+  <circle cx="500" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="514" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="528" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="542" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="556" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="570" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="584" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="598" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="612" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="626" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="640" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="654" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="668" cy="480" r="3" fill="#c0c0c4"/>
+  <circle cx="682" cy="480" r="3" fill="#c0c0c4"/>
+  <!-- USB ports -->
+  <rect x="468" y="472" width="20" height="14" rx="2" fill="#aaa"/>
+  <rect x="708" y="472" width="20" height="14" rx="2" fill="#aaa"/>
+
+  <!-- SMA connectors right cluster -->
+  <circle cx="510" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="543" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="576" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="609" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="642" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+  <circle cx="675" cy="442" r="7" fill="#c8a020" stroke="#a07010" stroke-width="1"/>
+
+  <!-- Antenna shafts right cluster -->
+  <line x1="510" y1="435" x2="498" y2="200" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="494" y="196" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="543" y1="435" x2="535" y2="195" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="531" y="191" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="576" y1="435" x2="572" y2="193" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="568" y="189" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="609" y1="435" x2="609" y2="192" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="605" y="188" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="642" y1="435" x2="646" y2="194" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="642" y="190" width="8" height="4" rx="2" fill="#555"/>
+  <line x1="675" y1="435" x2="683" y2="197" stroke="#333" stroke-width="7" stroke-linecap="round"/>
+  <rect x="679" y="193" width="8" height="4" rx="2" fill="#555"/>
+
+  <!-- Coupling zones right cluster -->
+  <ellipse cx="510" cy="320" rx="44" ry="110" fill="#f0880020" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="543" cy="315" rx="44" ry="108" fill="#f0880018" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="576" cy="314" rx="44" ry="108" fill="#f0880018" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="609" cy="314" rx="44" ry="108" fill="#f0880018" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="642" cy="315" rx="44" ry="108" fill="#f0880018" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+  <ellipse cx="675" cy="318" rx="44" ry="110" fill="#f0880020" stroke="#f08800" stroke-width="0.8" stroke-dasharray="5 4"/>
+
+  <!-- Spacing callout between two antennas -->
+  <line x1="130" y1="380" x2="163" y2="380" stroke="#ff6060" stroke-width="1.5"/>
+  <line x1="130" y1="374" x2="130" y2="386" stroke="#ff6060" stroke-width="1.5"/>
+  <line x1="163" y1="374" x2="163" y2="386" stroke="#ff6060" stroke-width="1.5"/>
+  <text x="146" y="372" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#ff6060" font-weight="600">~3cm</text>
+
+  <!-- Label: coupling zone -->
+  <text x="210" y="160" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#f0aa40" font-weight="500">mutual coupling zone</text>
+  <text x="210" y="175" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#f0aa4088">(heavily overlapping)</text>
+
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="600">Dense wardriving node cluster</text>
+  <text x="400" y="75" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#999" font-weight="400">Antennas packed at ~3cm — coupling zones overlap across all adjacent elements</text>
+
+  <!-- Footer note -->
+  <text x="400" y="560" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#666">Coupling power follows inverse square law — 2× distance = 4× less interference</text>
+</svg>
