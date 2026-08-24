@@ -2,6 +2,8 @@
 
 If you've seen builds like this with antennas packed 1–2cm apart on a node cluster, here's what's actually happening to your capture quality and what you can do about it without changing any hardware.
 
+![](dense_antenna_device.svg)
+
 ---
 
 ## The problem: mutual coupling
